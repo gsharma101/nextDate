@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nextDate/static/css/main.8d6c77c1.css",
+    "main.js": "/nextDate/static/js/main.e9f71b44.js",
+    "index.html": "/nextDate/index.html",
+    "main.8d6c77c1.css.map": "/nextDate/static/css/main.8d6c77c1.css.map",
+    "main.e9f71b44.js.map": "/nextDate/static/js/main.e9f71b44.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d6c77c1.css",
+    "static/js/main.e9f71b44.js"
+  ]
+}
