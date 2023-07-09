@@ -1,8 +1,34 @@
+.btn__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
 .stepsBox{
     display: flex;
     font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
 .counterBox{
     display: flex;
     font-size: 1.5rem;
+}
+
+.btn{
+    border: none;
+    font-size: 2rem;
+}
+
+.input{
+    font-size: 2rem;
+    padding: 5px 0px;
+}
+
+.reset{
+    font-size: 1rem;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    background-color: green;
+    border-radius: 1rem;
 }

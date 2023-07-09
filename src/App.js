@@ -14,19 +14,19 @@ function App() {
     date.setDate(date.getDate() + count);
 
     return (
-        <div>
+        <div className='btn__box'>
             <div className="stepsBox">
                 <input type='range' min="0" max="10" value={step} onChange={(e) => setStep(Number(e.target.value))} />
                 <span>Step: {step}</span>
             </div>
             <div className="counterBox">
-                <button onClick={() => setCount(c => c - step)}>-</button>
-                <div><input style={{ fontSize: "20px" }} type='number' value={count} onChange={e => setCount(Number(e.target.value))} /></div>
-                <button onClick={() => setCount(c => c + step)}>+</button>
+                <button className='btn' onClick={() => setCount(c => c - step)}>-</button>
+                <div><input className='input' style={{ fontSize: "20px" }} type='number' value={count} onChange={e => setCount(Number(e.target.value))} /></div>
+                <button className='btn' onClick={() => setCount(c => c + step)}>+</button>
             </div>
-            <h1>Today is {date.toDateString()}</h1>
+            <h2>Today is {date.toDateString()}</h2>
             {(count !== 0 || step !== 1) ? <div>
-                <button onClick={handelReset}>Reset</button>
+                <button className='reset' onClick={handelReset}>Reset</button>
             </div> : ""}
         </div>
     )
