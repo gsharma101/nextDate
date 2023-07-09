@@ -2,13 +2,17 @@ import { useState } from 'react';
 import './app.css';
 function App() {
     const [count, setCount] = useState(0);
+
     const [step, setStep] = useState(1);
+
     const date = new Date();
     function handelReset() {
         setCount(0);
         setStep(1);
     }
+
     date.setDate(date.getDate() + count);
+
     return (
         <div>
             <div className="stepsBox">
