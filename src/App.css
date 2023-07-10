@@ -17,15 +17,21 @@
 .btn{
     border: none;
     font-size: 2rem;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
 }
 
 .input{
     font-size: 2rem;
     padding: 5px 0px;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .reset{
-    font-size: 1rem;
+    font-size: 16px;
     border: none;
     padding: 5px 10px;
     color: white;
