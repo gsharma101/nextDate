@@ -28,6 +28,8 @@ function App() {
             {(count !== 0 || step !== 1) ? <div>
                 <button className='reset' onClick={handelReset}>Reset</button>
             </div> : ""}
+
+            <h3 className='newyear'>{365 - Math.ceil((date - new Date(date.getFullYear(), 0, 1)) / 86400000)}&nbsp;Days Left for New Year</h3>
         </div>
     )
 }
